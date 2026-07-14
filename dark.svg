@@ -240,7 +240,7 @@
       <text x="506" y="314" class="mono" font-size="18" fill="#10B981">&gt;</text>
       <text x="536" y="314" class="sans" font-size="19" fill="#22D3EE">⌖</text>
       <text x="566" y="314" class="mono" font-size="15" fill="#F8FAFC">Availability:</text>
-      <text x="654" y="314" class="mono" font-size="15" fill="#94A3B8">Remote / Contract</text>
+      <text x="686" y="314" class="mono" font-size="15" fill="#94A3B8">Remote / Contract</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" begin="1.15s" dur=".32s" fill="freeze"/>
