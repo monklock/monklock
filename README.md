@@ -1,4 +1,3 @@
-# Hi, I'm Alexey Rtischew
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
@@ -16,7 +15,6 @@ AI Integration Developer and Full-Stack PHP Developer focused on business automa
 - **Stack:** PHP 8.4 - Laravel - WordPress - WooCommerce - Vue 3 - Quasar 2 - MySQL
 - **Availability:** Remote / Contract
 - **Website:** [delay-delo.com](https://delay-delo.com)
-- **GitHub:** [@monklock](https://github.com/monklock)
 
 ---
 
