@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-  <img alt="Alexey Rtischew — AI Integration Developer" src="./dark.svg" width="100%">
+  <img alt="Alexey Rtischew - AI Integration Developer" src="./dark.svg" width="100%">
 </picture>
 
 ---
@@ -12,8 +12,8 @@
 
 AI Integration Developer and Full-Stack PHP Developer focused on business automation, commercial web systems, WordPress solutions, SEO, and REST API integrations.
 
-- **Focus:** AI integrations · Automation · SEO · Business web systems
-- **Stack:** PHP 8.4 · Laravel · WordPress · WooCommerce · Vue 3 · Quasar 2 · MySQL
+- **Focus:** AI integrations - Automation - SEO - Business web systems
+- **Stack:** PHP 8.4 - Laravel - WordPress - WooCommerce - Vue 3 - Quasar 2 - MySQL
 - **Availability:** Remote / Contract
 - **Website:** [delay-delo.com](https://delay-delo.com)
 - **GitHub:** [@monklock](https://github.com/monklock)
