@@ -1,0 +1,359 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" role="img" aria-labelledby="title desc">
+  <title id="title">Alexey Rtischew — AI Integration Developer</title>
+  <desc id="desc">Animated GitHub profile README banner with terminal code, skills, contacts and social links.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#10B981"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.35 0;0.35 0;-0.35 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#10B981"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.25 0;0.25 0;-0.25 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="15%" cy="14%" r="68%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity=".30"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+      <animate attributeName="cx" values="12%;22%;12%" dur="16s" repeatCount="indefinite"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="88%" cy="16%" r="48%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+      <animate attributeName="cy" values="14%;20%;14%" dur="14s" repeatCount="indefinite"/>
+    </radialGradient>
+    <radialGradient id="glowC" cx="86%" cy="84%" r="52%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+      <animate attributeName="cx" values="84%;76%;84%" dur="18s" repeatCount="indefinite"/>
+    </radialGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="48%" stop-color="#ffffff" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000000" flood-opacity=".20"/>
+    </filter>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.15 0 0 0 0 0.85 0 0 0 0 1 0 0 0 .55 0" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+    </pattern>
+    <pattern id="noise" width="84" height="84" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="20" r="1" fill="#67E8F9" opacity=".16"/>
+      <circle cx="42" cy="58" r=".9" fill="#7C3AED" opacity=".12"/>
+      <circle cx="69" cy="28" r=".8" fill="#10B981" opacity=".14"/>
+    </pattern>
+    <clipPath id="outerClip"><rect x="6" y="6" width="1168" height="598" rx="26"/></clipPath>
+    <clipPath id="leftClip"><rect x="24" y="28" width="426" height="554" rx="18"/></clipPath>
+    <clipPath id="rightClip"><rect x="472" y="28" width="684" height="554" rx="18"/></clipPath>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .code-muted { fill: #94A3B8; }
+      .code-violet { fill: #7C3AED; }
+      .code-blue { fill: #38BDF8; }
+      .code-cyan { fill: #22D3EE; }
+      .code-green { fill: #34D399; }
+      .code-emerald { fill: #10B981; }
+      .small { font-size: 12px; }
+    </style>
+  </defs>
+
+  <rect width="1180" height="610" rx="28" fill="#030712"/>
+  <g clip-path="url(#outerClip)">
+    <rect width="1180" height="610" fill="url(#glowA)"/>
+    <rect width="1180" height="610" fill="url(#glowB)"/>
+    <rect width="1180" height="610" fill="url(#glowC)"/>
+    <rect width="1180" height="610" fill="url(#grid)" opacity=".16"/>
+    <rect width="1180" height="610" fill="url(#noise)" opacity=".75"/>
+    <circle cx="106" cy="86" r="2" fill="#22D3EE"><animate attributeName="cy" values="86;76;86" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="1030" cy="118" r="2" fill="#10B981"><animate attributeName="opacity" values=".25;1;.25" dur="4.6s" repeatCount="indefinite"/></circle>
+    <circle cx="886" cy="478" r="1.8" fill="#7C3AED"><animate attributeName="opacity" values="1;.25;1" dur="3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="420" cy="242" r="1.8" fill="#22D3EE"><animate attributeName="cy" values="242;230;242" dur="6.2s" repeatCount="indefinite"/></circle>
+  </g>
+  <rect x="6" y="6" width="1168" height="598" rx="26" fill="none" stroke="url(#accent)" stroke-opacity=".78"/>
+  <rect x="8" y="8" width="1164" height="594" rx="24" fill="none" stroke="url(#accent)" stroke-width="2" stroke-dasharray="150 950" opacity=".42">
+    <animate attributeName="stroke-dashoffset" values="0;-1100" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <g filter="url(#shadow)">
+    <rect x="24" y="28" width="426" height="554" rx="18" fill="#0F172A" opacity="0.66"/>
+    <rect x="24" y="28" width="426" height="554" rx="18" fill="none" stroke="url(#accent)" stroke-opacity=".58"/>
+    <rect x="24" y="28" width="426" height="42" rx="18" fill="#020617" opacity=".76"/>
+    <text x="48" y="55" class="mono" font-size="13" fill="#94A3B8">~/dev/profile.js</text>
+    <circle cx="356" cy="49" r="4" fill="#10B981"/>
+    <text x="370" y="54" class="mono" font-size="12" fill="#10B981">AUTO-RUN</text>
+    <text x="430" y="54" class="mono" font-size="14" fill="#22D3EE">×</text>
+  </g>
+  <g clip-path="url(#leftClip)">
+    <rect x="24" y="70" width="426" height="512" fill="url(#grid)" opacity=".13"/>
+    <rect x="24" y="76" width="426" height="14" fill="#22D3EE" opacity=".15">
+      <animate attributeName="y" values="76;562;76" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".01;.18;.01" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="431" y="88" width="4" height="54" rx="2" fill="url(#accent)" opacity=".72">
+      <animate attributeName="y" values="88;488;88" dur="8.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="0.00s" dur=".18s" fill="freeze"/>
+      <text x="50" y="96" class="mono" font-size="13" fill="#94A3B8" opacity=".8">01</text>
+      <text x="78" y="96" class="mono code-muted" font-size="13">// Developer Profile Initialization</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="0.14s" dur=".18s" fill="freeze"/>
+      <text x="50" y="117" class="mono" font-size="13" fill="#94A3B8" opacity=".8">02</text>
+      <text x="78" y="117" class="mono code-blue" font-size="13">import { skills, projects } from &#x27;./data&#x27;;</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="0.28s" dur=".18s" fill="freeze"/>
+      <text x="50" y="138" class="mono" font-size="13" fill="#94A3B8" opacity=".8">03</text>
+      <text x="78" y="138" class="mono code-violet" font-size="13">const developer = {</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="0.42s" dur=".18s" fill="freeze"/>
+      <text x="50" y="159" class="mono" font-size="13" fill="#94A3B8" opacity=".8">04</text>
+      <text x="78" y="159" class="mono code-green" font-size="13">  name: &#x27;Alexey Rtischew&#x27;,</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="0.56s" dur=".18s" fill="freeze"/>
+      <text x="50" y="180" class="mono" font-size="13" fill="#94A3B8" opacity=".8">05</text>
+      <text x="78" y="180" class="mono code-green" font-size="13">  handle: &#x27;@monklock&#x27;,</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="0.70s" dur=".18s" fill="freeze"/>
+      <text x="50" y="201" class="mono" font-size="13" fill="#94A3B8" opacity=".8">06</text>
+      <text x="78" y="201" class="mono code-green" font-size="13">  role: &#x27;AI Integration Developer&#x27;,</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="0.84s" dur=".18s" fill="freeze"/>
+      <text x="50" y="222" class="mono" font-size="13" fill="#94A3B8" opacity=".8">07</text>
+      <text x="78" y="222" class="mono code-cyan" font-size="13">  stack: [&#x27;PHP&#x27;, &#x27;Laravel&#x27;, &#x27;WordPress&#x27;, &#x27;Vue&#x27;, &#x27;Quasar&#x27;],</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="0.98s" dur=".18s" fill="freeze"/>
+      <text x="50" y="243" class="mono" font-size="13" fill="#94A3B8" opacity=".8">08</text>
+      <text x="78" y="243" class="mono code-cyan" font-size="13">  focus: &#x27;AI integrations &amp; business automation&#x27;,</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="1.12s" dur=".18s" fill="freeze"/>
+      <text x="50" y="264" class="mono" font-size="13" fill="#94A3B8" opacity=".8">09</text>
+      <text x="78" y="264" class="mono code-emerald" font-size="13">  website: &#x27;delay-delo.com&#x27;,</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="1.26s" dur=".18s" fill="freeze"/>
+      <text x="50" y="285" class="mono" font-size="13" fill="#94A3B8" opacity=".8">10</text>
+      <text x="78" y="285" class="mono code-emerald" font-size="13">  email: &#x27;alexmonkwork@gmail.com&#x27;</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="1.40s" dur=".18s" fill="freeze"/>
+      <text x="50" y="306" class="mono" font-size="13" fill="#94A3B8" opacity=".8">11</text>
+      <text x="78" y="306" class="mono code-violet" font-size="13">};</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="1.54s" dur=".18s" fill="freeze"/>
+      <text x="50" y="327" class="mono" font-size="13" fill="#94A3B8" opacity=".8">12</text>
+      <text x="78" y="327" class="mono code-muted" font-size="13"></text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="1.68s" dur=".18s" fill="freeze"/>
+      <text x="50" y="348" class="mono" font-size="13" fill="#94A3B8" opacity=".8">13</text>
+      <text x="78" y="348" class="mono code-muted" font-size="13">// Boot sequence</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="1.82s" dur=".18s" fill="freeze"/>
+      <text x="50" y="369" class="mono" font-size="13" fill="#94A3B8" opacity=".8">14</text>
+      <text x="78" y="369" class="mono code-green" font-size="13">console.log(&#x27;Booting profile...&#x27;);</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="1.96s" dur=".18s" fill="freeze"/>
+      <text x="50" y="390" class="mono" font-size="13" fill="#94A3B8" opacity=".8">15</text>
+      <text x="78" y="390" class="mono code-blue" font-size="13">await loadSkills();</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="2.10s" dur=".18s" fill="freeze"/>
+      <text x="50" y="411" class="mono" font-size="13" fill="#94A3B8" opacity=".8">16</text>
+      <text x="78" y="411" class="mono code-blue" font-size="13">await compileExperience();</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="2.24s" dur=".18s" fill="freeze"/>
+      <text x="50" y="432" class="mono" font-size="13" fill="#94A3B8" opacity=".8">17</text>
+      <text x="78" y="432" class="mono code-blue" font-size="13">await optimizeWorkflow();</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="2.38s" dur=".18s" fill="freeze"/>
+      <text x="50" y="453" class="mono" font-size="13" fill="#94A3B8" opacity=".8">18</text>
+      <text x="78" y="453" class="mono code-green" font-size="13">render(&#x27;Ready&#x27;);</text>
+    </g>
+    <rect x="36" y="490" width="402" height="84" rx="12" fill="#020617" opacity=".74" stroke="url(#accent)" stroke-opacity=".36"/>
+
+    <text x="50" y="512" class="mono" font-size="12" fill="#34D399" opacity="0">&gt; Booting Developer Profile...<animate attributeName="opacity" values="0;1" begin="2.90s" dur=".18s" fill="freeze"/></text>
+    <text x="50" y="528" class="mono" font-size="12" fill="#34D399" opacity="0">&gt; Loading skills<animate attributeName="opacity" values="0;1" begin="3.12s" dur=".18s" fill="freeze"/></text>
+    <text x="50" y="544" class="mono" font-size="12" fill="#34D399" opacity="0">&gt; Compiling experience<animate attributeName="opacity" values="0;1" begin="3.34s" dur=".18s" fill="freeze"/></text>
+    <text x="50" y="560" class="mono" font-size="12" fill="#34D399" opacity="0">&gt; Optimizing workflow<animate attributeName="opacity" values="0;1" begin="3.56s" dur=".18s" fill="freeze"/></text>
+    <text x="50" y="576" class="mono" font-size="12" fill="#34D399" opacity="0">&gt; Ready.<animate attributeName="opacity" values="0;1" begin="3.78s" dur=".18s" fill="freeze"/></text>
+    <rect x="50" y="555" width="7" height="13" fill="#22D3EE"><animate attributeName="opacity" values="0;1;0" dur=".9s" repeatCount="indefinite"/></rect>
+    <rect x="-160" y="224" width="720" height="2" fill="url(#sheen)" opacity=".58">
+      <animate attributeName="x" values="-230;456;-230" dur="5.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="472" y="28" width="684" height="554" rx="18" fill="#0F172A" opacity="0.66"/>
+    <rect x="472" y="28" width="684" height="554" rx="18" fill="none" stroke="url(#accent)" stroke-opacity=".62"/>
+    <rect x="474" y="30" width="680" height="550" rx="16" fill="none" stroke="url(#accent)" stroke-width="2" stroke-dasharray="120 720" opacity=".38">
+      <animate attributeName="stroke-dashoffset" values="0;-840" dur="7.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g clip-path="url(#rightClip)">
+    <path d="M905 28h170L953 582H780Z" fill="url(#sheen)" opacity=".10">
+      <animateTransform attributeName="transform" type="translate" values="-32 0;78 0;-32 0" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <rect x="472" y="84" width="684" height="1" fill="rgba(255,255,255,.08)"/>
+    <text x="506" y="58" class="mono" font-size="15" fill="#94A3B8">@monklock</text>
+    <text x="1038" y="58" text-anchor="end" class="mono" font-size="14" fill="#94A3B8">developer@remote:~</text>
+    <circle cx="1124" cy="53" r="6" fill="#10B981"><animate attributeName="opacity" values=".55;1;.55" dur="2.2s" repeatCount="indefinite"/></circle>
+
+    <text x="506" y="124" class="sans" font-size="28" font-weight="700" fill="#F8FAFC">Hi 👋</text>
+    <text x="506" y="170" class="sans" font-size="42" font-weight="800" fill="#F8FAFC">I’m </text>
+    <text x="590" y="170" class="sans" font-size="42" font-weight="800" fill="url(#nameGradient)">Alexey Rtischew</text>
+    <line x1="506" y1="186" x2="992" y2="186" stroke="rgba(255,255,255,.08)"/>
+
+    <text x="506" y="220" class="mono" font-size="20" fill="#10B981">&gt; AI Integration Developer</text>
+    <rect x="778" y="203" width="8" height="19" fill="#22D3EE"><animate attributeName="opacity" values="0;1;0" dur=".92s" repeatCount="indefinite"/></rect>
+    <text x="528" y="248" class="mono" font-size="16" fill="#94A3B8">Full-Stack PHP Developer</text>
+    <text x="528" y="274" class="mono" font-size="16" fill="#94A3B8">WordPress Solutions Developer</text>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="0.95s" dur=".32s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 8;0 0" begin="0.95s" dur=".32s" fill="freeze"/>
+      <text x="506" y="314" class="mono" font-size="18" fill="#10B981">&gt;</text>
+      <text x="536" y="314" class="sans" font-size="19" fill="#22D3EE">⌖</text>
+      <text x="566" y="314" class="mono" font-size="15" fill="#F8FAFC">Availability:</text>
+      <text x="654" y="314" class="mono" font-size="15" fill="#94A3B8">Remote / Contract</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="1.15s" dur=".32s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 8;0 0" begin="1.15s" dur=".32s" fill="freeze"/>
+      <text x="506" y="342" class="mono" font-size="18" fill="#10B981">&gt;</text>
+      <text x="536" y="342" class="sans" font-size="19" fill="#22D3EE">◈</text>
+      <text x="566" y="342" class="mono" font-size="15" fill="#F8FAFC">Education:</text>
+      <text x="654" y="342" class="mono" font-size="15" fill="#94A3B8">Self-taught, product-driven</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="1.35s" dur=".32s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 8;0 0" begin="1.35s" dur=".32s" fill="freeze"/>
+      <text x="506" y="370" class="mono" font-size="18" fill="#10B981">&gt;</text>
+      <text x="536" y="370" class="sans" font-size="19" fill="#22D3EE">◎</text>
+      <text x="566" y="370" class="mono" font-size="15" fill="#F8FAFC">Current Focus:</text>
+      <text x="688" y="370" class="mono" font-size="13" fill="#94A3B8">AI integrations &amp; business automation</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="1.55s" dur=".32s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 8;0 0" begin="1.55s" dur=".32s" fill="freeze"/>
+      <text x="506" y="398" class="mono" font-size="18" fill="#10B981">&gt;</text>
+      <text x="536" y="398" class="sans" font-size="19" fill="#22D3EE">◉</text>
+      <text x="566" y="398" class="mono" font-size="15" fill="#F8FAFC">Website:</text>
+      <text x="654" y="398" class="mono" font-size="15" fill="#94A3B8">delay-delo.com</text>
+    </g>
+    <line x1="486" y1="432" x2="1134" y2="432" stroke="#22D3EE" stroke-opacity=".24" stroke-dasharray="2 4"/>
+    <text x="506" y="430" class="mono" font-size="18" fill="#10B981">&gt; Skills</text>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="1.95s" dur=".24s" fill="freeze"/>
+      <rect x="506" y="444" width="116" height="28" rx="12" fill="#020617" opacity=".72" stroke="url(#accent)" stroke-opacity=".74"/>
+      <text x="524" y="463" class="mono" font-size="11" fill="#22D3EE">php</text>
+      <text x="550" y="463" class="mono" font-size="13" fill="#F8FAFC">PHP 8.4</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="2.01s" dur=".24s" fill="freeze"/>
+      <rect x="632" y="444" width="108" height="28" rx="12" fill="#020617" opacity=".72" stroke="url(#accent)" stroke-opacity=".74"/>
+      <text x="650" y="463" class="mono" font-size="11" fill="#22D3EE">L</text>
+      <text x="676" y="463" class="mono" font-size="13" fill="#F8FAFC">Laravel</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="2.07s" dur=".24s" fill="freeze"/>
+      <rect x="750" y="444" width="124" height="28" rx="12" fill="#020617" opacity=".72" stroke="url(#accent)" stroke-opacity=".74"/>
+      <text x="768" y="463" class="mono" font-size="11" fill="#22D3EE">WP</text>
+      <text x="794" y="463" class="mono" font-size="13" fill="#F8FAFC">WordPress</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="2.13s" dur=".24s" fill="freeze"/>
+      <rect x="884" y="444" width="148" height="28" rx="12" fill="#020617" opacity=".72" stroke="url(#accent)" stroke-opacity=".74"/>
+      <text x="902" y="463" class="mono" font-size="11" fill="#22D3EE">WOO</text>
+      <text x="928" y="463" class="mono" font-size="13" fill="#F8FAFC">WooCommerce</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="2.19s" dur=".24s" fill="freeze"/>
+      <rect x="1042" y="444" width="94" height="28" rx="12" fill="#020617" opacity=".72" stroke="url(#accent)" stroke-opacity=".74"/>
+      <text x="1060" y="463" class="mono" font-size="11" fill="#22D3EE">V</text>
+      <text x="1086" y="463" class="mono" font-size="13" fill="#F8FAFC">Vue 3</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="2.25s" dur=".24s" fill="freeze"/>
+      <rect x="506" y="480" width="116" height="28" rx="12" fill="#020617" opacity=".72" stroke="url(#accent)" stroke-opacity=".74"/>
+      <text x="524" y="499" class="mono" font-size="11" fill="#22D3EE">Q</text>
+      <text x="550" y="499" class="mono" font-size="13" fill="#F8FAFC">Quasar 2</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="2.31s" dur=".24s" fill="freeze"/>
+      <rect x="632" y="480" width="104" height="28" rx="12" fill="#020617" opacity=".72" stroke="url(#accent)" stroke-opacity=".74"/>
+      <text x="650" y="499" class="mono" font-size="11" fill="#22D3EE">SQL</text>
+      <text x="676" y="499" class="mono" font-size="13" fill="#F8FAFC">MySQL</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="2.37s" dur=".24s" fill="freeze"/>
+      <rect x="746" y="480" width="116" height="28" rx="12" fill="#020617" opacity=".72" stroke="url(#accent)" stroke-opacity=".74"/>
+      <text x="764" y="499" class="mono" font-size="11" fill="#22D3EE">TW</text>
+      <text x="790" y="499" class="mono" font-size="13" fill="#F8FAFC">Tailwind</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="2.43s" dur=".24s" fill="freeze"/>
+      <rect x="872" y="480" width="150" height="28" rx="12" fill="#020617" opacity=".72" stroke="url(#accent)" stroke-opacity=".74"/>
+      <text x="890" y="499" class="mono" font-size="11" fill="#22D3EE">AI</text>
+      <text x="916" y="499" class="mono" font-size="13" fill="#F8FAFC">AI Integration</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="2.49s" dur=".24s" fill="freeze"/>
+      <rect x="1032" y="480" width="126" height="28" rx="12" fill="#020617" opacity=".72" stroke="url(#accent)" stroke-opacity=".74"/>
+      <text x="1050" y="499" class="mono" font-size="11" fill="#22D3EE">⚙</text>
+      <text x="1076" y="499" class="mono" font-size="13" fill="#F8FAFC">Automation</text>
+    </g>
+    <line x1="486" y1="548" x2="1134" y2="548" stroke="#22D3EE" stroke-opacity=".24" stroke-dasharray="2 4"/>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="2.70s" dur=".30s" fill="freeze"/>
+      <rect x="506" y="532" width="186" height="24" rx="10" fill="#020617" opacity=".72" stroke="url(#accent)" stroke-opacity=".58"/>
+      <text x="522" y="548" class="sans" font-size="12" font-weight="700" fill="#22D3EE">◉</text>
+      <text x="546" y="548" class="mono" font-size="12" fill="#F8FAFC">GitHub</text>
+      <text x="614" y="548" class="mono" font-size="12" fill="#94A3B8">@monklock</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="2.78s" dur=".30s" fill="freeze"/>
+      <rect x="716" y="532" width="186" height="24" rx="10" fill="#020617" opacity=".72" stroke="url(#accent)" stroke-opacity=".58"/>
+      <text x="732" y="548" class="sans" font-size="12" font-weight="700" fill="#22D3EE">in</text>
+      <text x="756" y="548" class="mono" font-size="12" fill="#F8FAFC">LinkedIn</text>
+      <text x="824" y="548" class="mono" font-size="12" fill="#94A3B8">/in/alexey</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="2.86s" dur=".30s" fill="freeze"/>
+      <rect x="926" y="532" width="205" height="24" rx="10" fill="#020617" opacity=".72" stroke="url(#accent)" stroke-opacity=".58"/>
+      <text x="942" y="548" class="sans" font-size="12" font-weight="700" fill="#22D3EE">◎</text>
+      <text x="966" y="548" class="mono" font-size="12" fill="#F8FAFC">Website</text>
+      <text x="1034" y="548" class="mono" font-size="12" fill="#94A3B8">delay-delo.com</text>
+    </g>
+    <rect x="398" y="28" width="240" height="554" fill="url(#sheen)" opacity=".08">
+      <animate attributeName="x" values="352;1156;352" dur="11s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
